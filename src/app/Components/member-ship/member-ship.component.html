@@ -1,0 +1,11 @@
+<!-- <app-header></app-header> -->
+<div class="members-ship">
+<div class="overlay"></div>
+    <div class="container">
+        <div class="list-cards-member-ship ">
+            @for(member of AllDataMembers;track $index){
+                <app-card-member-ship  [dataMemberShip]="member"></app-card-member-ship>
+            }
+        </div>
+    </div>
+</div>
