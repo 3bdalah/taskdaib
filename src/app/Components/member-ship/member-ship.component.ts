@@ -19,7 +19,6 @@ export class MemberShipComponent  implements OnInit{
 
   ngOnInit(): void {
     this._http.get<Membership[]>(this.URLApi).subscribe(( members:any) => {
-      // const data : Membership= members; 
       this.AllDataMembers = members.data;
       
       console.log("data updated all member ship ", this.AllDataMembers)

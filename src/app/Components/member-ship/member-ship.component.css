@@ -12,9 +12,9 @@
     z-index: -1;
 }
 .container {
-    max-width: 1140px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 1rem; /* Add some padding for visual separation */
+    max-width: 1140px; 
+    margin: 0 auto; 
+    padding: 1rem; 
   }
 
 
